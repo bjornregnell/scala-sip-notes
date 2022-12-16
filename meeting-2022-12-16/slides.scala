@@ -10,8 +10,8 @@ import taggy.*
 
 @main def run = slides.toPdf()
 
-def slides = document("SIP-46 - Scala CLI -> scala"):
-  frame("More ergonomic union types"):
+def slides = document("More ergonomic union types"):
+  frame("Outline"):
     itemize:
       p("Brief summary of this long thread")
       itemize:
