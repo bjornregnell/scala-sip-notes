@@ -82,7 +82,7 @@ def slides = document("More ergonomic union types"):
 
   frame("Notes from SIP meeting discussions"):
     itemize:
-      p("More precise type inference is being worked on an some things have already improved") 
+      p("More precise type inference is being worked on and some things have already improved") 
       p("Generating a match for common members in a union is against then nominal typing philosophy of Scala (as opposed to the structural typing of e.g. typescript")
       p("There are workarounds, e.g. creating extensions methods on the union to make it more convenient") 
       p("Automatic match could be done with macros but it is still dubious in terms of nominal typing")
